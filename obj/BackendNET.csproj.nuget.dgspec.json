@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\UAD\\Semester 5\\Pemrograman Dasar (DE-001)\\TugasAsinkron6\\BackendNET\\BackendNET.csproj": {}
+  },
+  "projects": {
+    "D:\\UAD\\Semester 5\\Pemrograman Dasar (DE-001)\\TugasAsinkron6\\BackendNET\\BackendNET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UAD\\Semester 5\\Pemrograman Dasar (DE-001)\\TugasAsinkron6\\BackendNET\\BackendNET.csproj",
+        "projectName": "BackendNET",
+        "projectPath": "D:\\UAD\\Semester 5\\Pemrograman Dasar (DE-001)\\TugasAsinkron6\\BackendNET\\BackendNET.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\UAD\\Semester 5\\Pemrograman Dasar (DE-001)\\TugasAsinkron6\\BackendNET\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
